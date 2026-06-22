@@ -47,24 +47,6 @@ One dashboard. One system. Full control.
 
 ---
 
-## Platform Architecture
-
-```
-  ┌─────────────┐     ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
-  │   Landing   │────▶│     CRM     │────▶│     API     │────▶│     Bot     │
-  │  Onboarding │     │  Dashboard  │     │   Backend   │     │   Discord   │
-  └─────────────┘     └─────────────┘     └─────────────┘     └─────────────┘
-```
-
-| Layer | What it does |
-|-------|-------------|
-| 🌐 **Landing** | Entry point and onboarding |
-| 🧠 **CRM** | Main control panel for community management |
-| ⚙️ **API** | Backend logic, auth, data layer |
-| 🤖 **Bot** | Real-time Discord integration |
-
----
-
 ## Features
 
 **Community Control**
@@ -91,33 +73,14 @@ One dashboard. One system. Full control.
 
 A-Faction fits any Discord community with internal structure:
 
-- 🎮 Gaming communities & clans
-- 🎭 RP servers
-- 📚 Educational servers
-- 🚀 Startup & dev teams
-- 🎬 Content creator communities
-- 🔒 Private organizations & admin teams
+- Gaming communities & clans
+- RP servers
+- Educational servers
+- Startup & dev teams
+- Content creator communities
+- Private organizations & admin teams
 
 **If your server has roles, processes, or workflows — A-Faction fits.**
-
----
-
-## Tech Stack
-
-**Frontend**
-- Vue 3 + Nuxt (SSR) + Vite
-- TypeScript + SCSS
-- SEO-optimized
-
-**Backend**
-- Node.js 20 + Express
-- PostgreSQL
-- JWT auth · CSRF protection · Rate limiting
-
-**Infrastructure**
-- Railway (deploy)
-- Cloudflare (DNS + edge)
-- Discord.js v14
 
 ---
 
@@ -149,11 +112,3 @@ Core implementation details and internal logic are kept private.
 | ⚙️ API | [api.a-faction.xyz](https://api.a-faction.xyz) |
 | 💬 Discord | [discord.gg/2cMBp8gjYn](https://discord.gg/2cMBp8gjYn) |
 | 👤 Owner | [jalisco](https://discord.com/users/325196577624817674) |
-
----
-
-<div align="center">
-
-<img width="25px" src="https://a-faction.xyz/logo.svg"> **A-Faction** — manage your community like a system
-
-</div>
